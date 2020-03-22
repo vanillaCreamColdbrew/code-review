@@ -21,7 +21,7 @@ class Monster {
   }
 
   attacked(dmg) {
-    this._hp -= dmg
+    this.hp -= dmg
 
     const attackMsg = mBuilder.attackToMonster(user)
     addMessage(app, attackMsg)
